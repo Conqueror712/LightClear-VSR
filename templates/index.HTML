@@ -1,25 +1,265 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Video Upload and Download</title>
-</head>
-<body>
-  <h1>Video Upload and Download</h1>
+<!DOCTYPE html><html lang="zh-TW"><head><title>Light-Clear</title>
+    <meta name="keywords" content="Light-Clear" />
+    <meta name="description" content="Light-Clear" />
+    <meta http-equiv="content-language" content="zh-TW">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/css/bootstrap-xinqi.css"/>
+    <link rel="stylesheet" href="static/css/animate.css"/>
+    </head><body>
+    <!--导航-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand"><img alt="Light Clear Logo" width="80" height="70" src="static/images/lightclear-logo.png" style="margin-right:20px;"></a>
+            </div>
+            <!--导航-->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">主页</a></li>
+                    <li><a href="#html5">核心技术</a></li>
+                    <li><a href="#course">其他技术栈</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:;">Email: LightClear@gmail.com</a></li>
+                </ul>
+            </div>
+            <!--导航-->
+        </div>
+    </nav>
+    <!--导航-->
+    
+    <!--home-->
+    <section id="home">
+    <div class="jumbotron banner wow fadeInRight"><div class="container">
+    <h1>LightClear - 轻晰</h1>
+    <p>基于深度学习的视频修复平台</p>
+    <p><a class="btn btn-success btn-lg" href="https://conqueror712.github.io/" role="button" target="_blank">START<span id="shijia"></span></a></p>
+    
+    <!--new input-->
+    <!-- <label class="input-file-button" for="upload"> 上传文件 </label>
+    <input type="file" id="upload" /> -->
 
-  <input type="file" id="upload-input" accept="video/*">
-  <button onclick="upload()">Upload</button>
-  <br>
-  <br>
-  <a href="#" id="download-link" download>Download</a>
-  <button onclick="download()">Download</button>
-
-</body>
-<script>
-  function upload() {
-    //Code to handle video upload
-  }
-  function download() {
-    //Code to handle video download
-  }
-</script>
-</html>
+    </div></div>
+    </section>
+    <!--home-->
+    
+    <!--bbs-->
+    <section id="bbs">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="0.5s">
+                <div class="col-md-4">
+                    <a href="javascript:;">
+                        <img src="static/images/index-icon1.png" class="img-responsive" alt=""/>
+                        <h3>项目特点1</h3>
+                        <p>我是特点我是特点</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="javascript:;">
+                        <img src="static/images/index-icon2.png" class="img-responsive" alt=""/>
+                        <h3>项目特点2</h3>
+                        <p>我是特点我是特点</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="javascript:;">
+                        <img src="static/images/index-icon3.png" class="img-responsive" alt=""/>
+                        <h3>项目特点3</h3>
+                        <p>我是特点我是特点</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--bbs-->
+    
+    <!--html5-->
+    <section id="html5">
+        <div class="container">
+            <div class="col-md-7 wow fadeInLeft">
+                <h2>基于BasicVSR++算法</h2>
+                <p>算法简介</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>具体的介绍1</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>具体的介绍2</p>
+            </div>
+            <div class="col-md-5 wow fadeInRight">
+                <img src="static/images/xcxyhs.png" class="img-responsive" alt=""/>
+            </div>
+        </div>
+    </section>
+    <!--html5-->
+    
+    <!--bootstrap-->
+    <section id="bootstrap">
+        <div class="container wow fadeInUp">
+            <div class="col-md-6">
+                <img src="static/images/xcxqygw.png" class="img-responsive" alt=""/>
+            </div>
+            <div class="col-md-6">
+                <h2>采用Go语言实现交互</h2>
+                <p>Go语言优点介绍</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>实现了什么什么1</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>实现了什么什么2</p>
+            </div>
+        </div>
+    </section>
+    <!--bootstrap-->
+    
+    <!--course-->
+    <section id="course">
+        <div class="container">
+            <div class="row wow fadeIn" data-wow-delay="0.6s">
+                <div class="col-md-12">
+                    <h2>其他技术栈</h2>
+                </div>
+                <div class="col-md-3">
+                    <div class="course">
+                        <img class="case-img" src="static/images/case1.png" data-src="static/images/case1-xcxcode.jpg" class="img-responsive" alt="消費電子產品" title="消費電子產品" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="course">
+                        <img class="case-img" src="static/images/case14.png" data-src="static/images/case14-xcxcode.jpg" class="img-responsive" alt="企業雲端解決方案" title="企業雲端解決方案" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="course">
+                        <img class="case-img" src="static/images/case16.png" data-src="static/images/case16-xcxcode.jpg" class="img-responsive" alt="遊戲娛樂" title="遊戲娛樂" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="course">
+                        <img class="case-img" src="static/images/case17.png" data-src="static/images/case17-xcxcode.jpg" class="img-responsive" alt="物聯網 （IoT）" title="物聯網 （IoT）" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--course-->
+    
+    <!--contact-->
+    <section id="contact">
+        <div class="lvjing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 wow fadeInLeft animated">
+                        <h2>
+                            <span class="glyphicon glyphicon-send"></span>
+                            &nbsp;
+                            项目成员
+                        </h2>
+                        <p>
+                            巩羽飞 孙岩 王翰洋 覃晚璐 包乐瑶 
+                        </p>
+                        <address>
+                            <p>
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                                &nbsp;
+                                地址: 北京邮电大学沙河校区
+                            </p>
+                            <p>
+                                <span class="glyphicon glyphicon-earphone"></span>
+                                &nbsp;
+                                電話: xxxxxxxxxxxx
+                            </p>
+                            <p>
+                                <span class="glyphicon glyphicon-envelope"></span>
+                                &nbsp;
+                                電郵: <a href="mailto:inquiry@pcpartner.com" target="_blank">66666666@qq.com</a>
+                            </p>
+                        </address>
+                    </div>
+                    <div class="col-md-5 wow fadeInRight animated">
+                        <img align="right" src="static/images/contactus.png" class="img-responsive" alt="聯繫我們"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact-->
+    
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy;&nbsp;Copyright BUPT. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
+    
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <!--<script src="js/jquery.singlePageNav.min.js"></script>-->
+    <script src="static/js/wow.min.js"></script>
+    <script>
+    $(function(){
+        /*导航跳转效果插件*/
+        /*$('.nav').singlePageNav({
+            offset:70
+        });*/
+        /*小屏幕导航点击关闭菜单*/
+        /*$('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        });*/
+        new WOW().init();
+        
+        //鼠标滑过图片切换
+        /* var oldImageUrl = '';
+        $('.case-img').hover(function(){
+            oldImageUrl = $(this).attr('src');
+            $(this).attr('src', $(this).attr('data-src')).fadeIn();
+        },
+        function(){
+            $(this).attr('src', oldImageUrl).fadeIn();
+        }); */
+    });
+    </script>
+    
+    <script type="text/javascript" src="http://hq.sinajs.cn/list=hk01263" charset="gb2312"></script>
+    <script type="text/javascript">
+    function formatNum(num,n)
+    {
+        //参数说明：num 要格式化的数字 n 保留小数位
+        num = String(num.toFixed(n));
+        var re = /(-?\d+)(\d{3})/;
+        while(re.test(num)) num = num.replace(re,"$1,$2")
+        return num;
+    }
+    
+    var elements = hq_str_hk01263.split(",");
+    var today_open=elements[2];
+    var today_new=elements[6];
+    
+    if (elements[2]=="0.000")
+    {
+        today_open="--";
+    }
+    
+    var change=formatNum(today_new-elements[3],3);
+    var change_p=formatNum(change/elements[3]*100,3);
+    
+    $("#shijia").html(" 市價:" + today_new);
+    /* document.write("股票英文："+elements[0]+"<br/>");
+    document.write("股票名称："+elements[1]+"<br/>");
+    document.write("今开盘："+today_open+"<br/>");
+    document.write("昨收盘："+elements[3]+"<br/>");
+    document.write("最新价："+today_new+"<br/>");
+    document.write("升跌："+change+"<br/>");
+    document.write("升跌%："+change_p+" %<br/>");
+    document.write("成交价："+elements[10]+" HK$<br/>");
+    document.write("成交量："+elements[12]+" 股<br/>");
+    document.write("更新日期："+elements[17]+"<br/>");
+    document.write("更新时间："+elements[18]+"<br/>"); */
+    </script>
+    </body></html>

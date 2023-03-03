@@ -18,17 +18,27 @@ body{
 }
 
 /* new input */
-/* .upload-button {
-    padding: 6px 25px;
-    background: #00bfff;
+input {
+    display: none;
+    visibility: hidden;
+}
+
+.input-file-button {
+    padding: 8px 32px;
+    background: #009428;
     border-radius: 4px;
     color: white;
     cursor: pointer;
 }
 
-input {
-    display: none;
-} */
+.input-file-button2 {
+    padding: 4px 16px;
+    background: #f1f0f0;
+    border-radius: 4px;
+    color: #009428;
+    cursor: pointer;
+}
+
 
 .navbar-default .navbar-brand {
     font-size: 30px;

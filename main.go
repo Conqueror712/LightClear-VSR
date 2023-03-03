@@ -75,7 +75,7 @@ func main() {
 		}
 
 		// 转码视频文件
-		output := fmt.Sprintf("output_%s", file.Filename)
+		output := fmt.Sprintf("/outputs/output_%s", file.Filename)
 		cmd := exec.Command("ffmpeg", "-i", path, "-vcodec", "libx264", "-acodec", "aac", "-strict", "-2", output)
 		if err := cmd.Run(); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{

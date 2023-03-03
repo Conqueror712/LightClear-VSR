@@ -39,13 +39,23 @@
     <!--home-->
     <section id="home">
     <div class="jumbotron banner wow fadeInRight"><div class="container">
-    <h1>LightClear - 轻晰</h1>
-    <p>基于深度学习的视频修复平台</p>
-    <p><a class="btn btn-success btn-lg" href="https://conqueror712.github.io/" role="button" target="_blank">START<span id="shijia"></span></a></p>
+    <h1><b>LightClear - 轻晰</b></h1>
+    <p><b>基于深度学习的视频修复平台</b></p>
+    <!-- <p><a class="btn btn-success btn-lg" href="https://conqueror712.github.io/" role="button" target="_blank">START<span id="shijia"></span></a></p> -->
     
     <!--new input-->
-    <!-- <label class="input-file-button" for="upload"> 上传文件 </label>
+    <!-- <label class="input-file-button" for="upload"> START </label>
     <input type="file" id="upload" /> -->
+
+    <!--new new input-->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label class="input-file-button" for="upload" enctype="multipart/form-data"> START </label>
+        <input type="file" id="file" name="file" multiple />
+        <button> 
+            <label class="input-file-button2" for="upload" enctype="multipart/form-data"> Submit </label>
+        </button>
+    </form>
+
 
     </div></div>
     </section>

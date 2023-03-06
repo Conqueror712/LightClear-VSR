@@ -28,7 +28,7 @@
                     <li><a href="#contact">联系我们</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="javascript:;">Email: LightClear@gmail.com</a></li>
+                    <li><a href="javascript:;">Email: Conqueror712@bupt.edu.cn</a></li>
                 </ul>
             </div>
             <!--导航-->
@@ -49,13 +49,10 @@
 
     <!--new new input-->
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <label class="input-file-button" for="upload" enctype="multipart/form-data"> START </label>
+        <label class="input-file-button" for="file"> START </label>
         <input type="file" id="file" name="file" multiple />
-        <button> 
-            <label class="input-file-button2" for="upload" enctype="multipart/form-data"> Submit </label>
-        </button>
+        <label class="input-file-button2"> <button> Submit </button> </label>
     </form>
-
 
     </div></div>
     </section>
@@ -67,23 +64,23 @@
             <div class="row wow fadeInUp" data-wow-duration="0.5s">
                 <div class="col-md-4">
                     <a href="javascript:;">
-                        <img src="static/images/index-icon1.png" class="img-responsive" alt=""/>
-                        <h3>项目特点1</h3>
-                        <p>我是特点我是特点</p>
+                        <img src="static/images/index-icon1.png" width="300px" class="img-responsive" alt=""/>
+                        <h3><b>超分辨率</b></h3>
+                        <p>基于深度学习技术<br>采用当下主流的BasicVSR++算法</p>
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="javascript:;">
-                        <img src="static/images/index-icon2.png" class="img-responsive" alt=""/>
-                        <h3>项目特点2</h3>
-                        <p>我是特点我是特点</p>
+                        <img src="static/images/index-icon2.png" width="100px" class="img-responsive" alt=""/>
+                        <h3><b>一键式平台</b></h3>
+                        <p>简约 - 轻便 - 高效</p>
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="javascript:;">
-                        <img src="static/images/index-icon3.png" class="img-responsive" alt=""/>
-                        <h3>项目特点3</h3>
-                        <p>我是特点我是特点</p>
+                        <img src="static/images/index-icon3.png" width="180px" class="img-responsive" alt=""/>
+                        <h3><b>高并发处理</b></h3>
+                        <p>使用Gin + Gorm框架搭建<br>轻松应对高强度流量场景</p>
                     </a>
                 </div>
             </div>
@@ -96,12 +93,14 @@
         <div class="container">
             <div class="col-md-7 wow fadeInLeft">
                 <h2>基于BasicVSR++算法</h2>
-                <p>算法简介</p>
-                <p><span class="glyphicon glyphicon-grain mai-icon"></span>具体的介绍1</p>
-                <p><span class="glyphicon glyphicon-grain mai-icon"></span>具体的介绍2</p>
+                <p>BasicVSR++的整体思路跟BasicVSR类似，<br>都是利用了双向传播和特征对齐，但它们在细节上截然不同。</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>改进 1 - Second-Order Grid Propagation
+                    <br>————改进网络的信息聚合能力。</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>改进 2 - Flow-Guided Deformable Alignment
+                    <br>————提升对齐表现, 并解决现有方法中DCN不稳定的问题。</p>
             </div>
             <div class="col-md-5 wow fadeInRight">
-                <img src="static/images/xcxyhs.png" class="img-responsive" alt=""/>
+                <img src="static/images/xcxyhs.png" width="800px" class="img-responsive" alt=""/>
             </div>
         </div>
     </section>
@@ -111,13 +110,15 @@
     <section id="bootstrap">
         <div class="container wow fadeInUp">
             <div class="col-md-6">
-                <img src="static/images/xcxqygw.png" class="img-responsive" alt=""/>
+                <img src="static/images/xcxqygw.png" width="600px" class="img-responsive" alt=""/>
             </div>
             <div class="col-md-6">
-                <h2>采用Go语言实现交互</h2>
-                <p>Go语言优点介绍</p>
-                <p><span class="glyphicon glyphicon-grain mai-icon"></span>实现了什么什么1</p>
-                <p><span class="glyphicon glyphicon-grain mai-icon"></span>实现了什么什么2</p>
+                <h2 style="padding-left:100px">采用Go语言实现交互</h2>
+                <p style="padding-left:100px">Go语言有时候被描述为"类C语言"，或者是"21世纪的C语言"。
+                    <br>Go从C语言继承了相似的表达式语法、<br>控制流结构、基础数据类型、调用参数传值、指针等很多思想，<br>
+                    还有C语言一直所看中的编译后机器码的运行效率<br>以及和现有操作系统的无缝适配。</p>
+                <p style="padding-left:100px"><span class="glyphicon glyphicon-grain mai-icon"></span>Go语言具有轻量级、高并发和高效率的特点，支持轻松编写高并发程序，使得Go成为云计算、大数据、区块链等领域开发的热门语言。</p>
+                <p style="padding-left:100px"><span class="glyphicon glyphicon-grain mai-icon"></span>同时，Go语言采用垃圾回收机制、提供丰富的标准库和工具，使得程序开发变得更加容易、安全和可靠。</p>
             </div>
         </div>
     </section>
@@ -132,12 +133,12 @@
                 </div>
                 <div class="col-md-3">
                     <div class="course">
-                        <img class="case-img" src="static/images/case1.png" data-src="static/images/case1-xcxcode.jpg" class="img-responsive" alt="消費電子產品" title="消費電子產品" />
+                        <img class="case-img" src="static/images/case1.png" width="200px" data-src="static/images/case1-xcxcode.jpg" class="img-responsive" alt="消費電子產品" title="消費電子產品" />
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="course">
-                        <img class="case-img" src="static/images/case14.png" data-src="static/images/case14-xcxcode.jpg" class="img-responsive" alt="企業雲端解決方案" title="企業雲端解決方案" />
+                        <img class="case-img" src="static/images/case14.png" width="200px" data-src="static/images/case14-xcxcode.jpg" class="img-responsive" alt="企業雲端解決方案" title="企業雲端解決方案" />
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -178,17 +179,17 @@
                             <p>
                                 <span class="glyphicon glyphicon-earphone"></span>
                                 &nbsp;
-                                電話: xxxxxxxxxxxx
+                                电话: NULL
                             </p>
                             <p>
                                 <span class="glyphicon glyphicon-envelope"></span>
                                 &nbsp;
-                                電郵: <a href="mailto:inquiry@pcpartner.com" target="_blank">66666666@qq.com</a>
+                                邮箱: Conqueror712@bupt.edu.cn
                             </p>
                         </address>
                     </div>
                     <div class="col-md-5 wow fadeInRight animated">
-                        <img align="right" src="static/images/contactus.png" class="img-responsive" alt="聯繫我們"/>
+                        <img align="right" src="static/images/contactus.png" width="400px" class="img-responsive" alt="聯繫我們"/>
                     </div>
                 </div>
             </div>

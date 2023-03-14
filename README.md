@@ -8,3 +8,5 @@ BUPT 2022 Innovation and Entrepreneurship Project.
 The front-end page is basically completed!
 
 ## 2023.03.15 - Update
+
+It has been deployed to the cloud.
